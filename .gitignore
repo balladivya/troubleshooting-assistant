@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Virtual environment
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.local
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Generated data
+data/processed/*
+!data/processed/.gitkeep
+
+# Test and coverage artifacts
+.coverage
+htmlcov/
